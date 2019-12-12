@@ -1,5 +1,5 @@
 module "s3_bucket" {
-  source                   = "git::https://github.com/cloudposse/terraform-aws-s3-bucket.git?ref=master"
+  source                   = "https://github.com/clouddrove/terraform-aws-s3?ref=tags/0.12.2"
   enabled                  = true
   user_enabled             = true
   versioning_enabled       = true
