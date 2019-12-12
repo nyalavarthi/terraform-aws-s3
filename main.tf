@@ -7,5 +7,4 @@ module "s3_bucket" {
   name                     = "terraform-module-sbox-bucket2"
   stage                    = "test"
   namespace                = "eg"
-  version                  = "1.0.0" 
 }
